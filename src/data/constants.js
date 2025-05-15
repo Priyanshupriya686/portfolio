@@ -202,7 +202,7 @@ export const experiences = [
   },
   {
     id: 0,
-    img: "E:\SURVIVAL\portfolio\src\images\Educathon.png",
+    img: "./images/Educathon.png",
     role: "Organised Educathon, National Level Hackathon at TMSL.",
     company: "Samarth",
     date: "December 2024",

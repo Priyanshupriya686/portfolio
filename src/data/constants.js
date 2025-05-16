@@ -1,3 +1,8 @@
+import EducathonImage from '../images/Educathon.png';
+import OnlineCollege from '../images/Online college.png';
+import Resturent from '../images/Resturent.png';
+import Samarth from '../images/Samarth.png';
+
 export const Bio = {
   name: "Priyanshu Priya",
   roles: [
@@ -15,6 +20,7 @@ export const Bio = {
   twitter: "https://twitter.com/Im_priyanshu__",
   insta: "https://www.instagram.com/priyanshupriya686",
   facebook: "https://www.facebook.com/priyanshu.raj.37819",
+  
 };
 
 export const skills = [
@@ -31,7 +37,7 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
       {
-        name: "Talewind",
+        name: "Tailwind CSS ",
         image:
           "https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png",
       },
@@ -202,7 +208,8 @@ export const experiences = [
   },
   {
     id: 0,
-    img: "./images/Educathon.png",
+   // <Img src={HeroImg} alt="hero-image" />
+   img: EducathonImage,
     role: "Organised Educathon, National Level Hackathon at TMSL.",
     company: "Samarth",
     date: "December 2024",
@@ -308,8 +315,7 @@ export const projects = [
     date: "2024",
     description:
       "Online College Management System aimed at streamlining various academic and administrative tasks such as student registration, course management, attendance tracking, and result processing, enhancing efficiency and user experience for both students and faculty.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    image: OnlineCollege,   
     tags: [
       "HTML",
       "CSS",
@@ -328,8 +334,7 @@ export const projects = [
     date: "2024",
     description:
       "I designed and developed a restaurant website using HTML and CSS, featuring a dynamic menu display, online reservation system, and sections for customer reviews and engagement, aimed at enhancing user experience and boosting online presence.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      image: Resturent,   
     tags: ["HTML", "CSS"],
     category: "web app",
     github: "https://github.com/Priyanshupriya686/Resturent.git",
@@ -342,8 +347,7 @@ export const projects = [
     date: "Oct 2022 - Present",
     description:
       "I contributed to various parts of the website for Samarth, the educational club of Techno Main Salt Lake, working on design, content, and functionality to ensure a user-friendly and informative platform that reflects the club’s vision and activities.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+    image: Samarth,
     tags: [
       "React Js",
       "MongoDb",

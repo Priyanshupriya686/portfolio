@@ -1,3 +1,4 @@
+import { Email } from '@mui/icons-material';
 import EducathonImage from '../images/Educathon.png';
 import OnlineCollege from '../images/Online college.png';
 import Resturent from '../images/Resturent.png';
@@ -20,7 +21,7 @@ export const Bio = {
   twitter: "https://twitter.com/Im_priyanshu__",
   insta: "https://www.instagram.com/priyanshupriya686",
   facebook: "https://www.facebook.com/priyanshu.raj.37819",
-  
+  email: "hardestclimb586@gmail.com",
 };
 
 export const skills = [

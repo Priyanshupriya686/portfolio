@@ -4,6 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import GmailIcon from '@mui/icons-material/Mail';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -16,7 +17,7 @@ const FooterContainer = styled.div`
 
 
 const FooterWrapper = styled.footer`
-  width: 100%;
+ width: 100%;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
@@ -98,11 +99,12 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
+          <SocialMediaIcon href={`mailto:${Bio.email}`} target="_blank"> <GmailIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2025 Priyanshu Priya. All rights reserved.

@@ -385,10 +385,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Priyanshupriya686/Resturent.git",
     webapp: "https://grillnspices.vercel.app",
-
-  },
-  {
-    
   },
   { 
     id: 1,

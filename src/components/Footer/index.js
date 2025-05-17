@@ -96,21 +96,30 @@ function Footer() {
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
-<<<<<<< HEAD
           <NavLink href="#testimonials">Testimonials</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#contact">Contact</NavLink>
-=======
-          <NavLink href="#education">Education</NavLink>
->>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
         </Nav>
+
         <SocialMediaIcons>
-          <SocialMediaIcon href={`mailto:${Bio.email}`} target="_blank"> <GmailIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={`mailto:${Bio.email}`} target="_blank" rel="noopener noreferrer">
+            <GmailIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="_blank" rel="noopener noreferrer">
+            <GitHubIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.twitter} target="_blank" rel="noopener noreferrer">
+            <TwitterIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.insta} target="_blank" rel="noopener noreferrer">
+            <InstagramIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.facebook} target="_blank" rel="noopener noreferrer">
+            <FacebookIcon />
+          </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2025 Priyanshu Priya. All rights reserved.

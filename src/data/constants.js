@@ -505,10 +505,10 @@ export const testimonials = [
 image:AmritSagar,
   },
 {
-  name: "Name",
-    role: "Role",
-      feedback: ". . .",
-        image: "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg"
+  name: "Arghya Bandopadhyay",
+    role: "SDE, ThoughtWorks",
+      feedback: "Priyanshu is an astoundingly capable and intellectually agile individual, known for his adeptness at unraveling complex problems with composure and creativity. As my junior in college, he played an instrumental role in the Education Group — Samarth, where he consistently exhibited a rare blend of technical proficiency and strategic foresight. His indefatigable work ethic, coupled with a proactive approach to embracing responsibilities, sets him apart. What truly distinguishes Priyanshu is his flair for innovation — his visionary ideas are not only impactful but often paradigm-shifting, leaving an indelible mark on every initiative he undertakes.",
+        image: "https://sayakdev.tech/static/media/arghyada.0ea7b5b0c9661483efea.jpg"
 },
 {
   name: "Name",

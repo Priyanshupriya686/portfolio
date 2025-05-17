@@ -26,15 +26,15 @@ const Testimonials = () => {
     autoplay: true,
     autoplaySpeed: 4000,
     arrows: false,
-    pauseOnHover: false,
-    pauseOnFocus: false
+    pauseOnHover: true,
+    pauseOnFocus: true
   };
 
   return (
     <Container id="testimonials">
       <Wrapper>
         <Title>Testimonials</Title>
-        <Desc>My Clients' Words</Desc>
+        <Desc>What People Say</Desc>
         <CarouselSection>
           <Slider {...settings}>
             {testimonials.map((item, index) => (

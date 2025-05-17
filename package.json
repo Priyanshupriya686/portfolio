@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "priyanshu-priya-portfolio",
   "version": "0.1.0",
   "homepage": "https://github.com/Priyanshupriya686",
+=======
+  "name": "rishav-chanda-portfolio",
+  "version": "0.1.0",
+  "homepage": "https://rishavchanda.github.io",
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -21,10 +27,14 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.7",
+<<<<<<< HEAD
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.11",
     "swiper": "^11.2.6",
+=======
+    "styled-components": "^5.3.5",
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"
   },
@@ -33,8 +43,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+=======
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
   },
   "eslintConfig": {
     "extends": [

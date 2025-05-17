@@ -96,9 +96,13 @@ function Footer() {
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
+<<<<<<< HEAD
           <NavLink href="#testimonials">Testimonials</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#contact">Contact</NavLink>
+=======
+          <NavLink href="#education">Education</NavLink>
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={`mailto:${Bio.email}`} target="_blank"> <GmailIcon /></SocialMediaIcon>

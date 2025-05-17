@@ -3,7 +3,10 @@ import EducathonImage from '../images/Educathon.png';
 import OnlineCollege from '../images/Online college.png';
 import Resturent from '../images/Resturent.png';
 import Samarth from '../images/Samarth.png';
+<<<<<<< HEAD
 import AmritSagar from '../images/AmritSagar.jpg';
+=======
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
 
 export const Bio = {
   name: "Priyanshu Priya",
@@ -53,7 +56,11 @@ export const skills = [
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
       {
         name: "Next Js",
         image:
@@ -160,7 +167,11 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
       {
         name: "Vercel",
         image:
@@ -171,7 +182,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
       {
         name: "Canva",
         image:
@@ -194,7 +209,11 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+<<<<<<< HEAD
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy6jxpGiQqxtmghybgCFThC8UyFK-Ve03v1Q&s",
+=======
+    img: "https://samarthtmsl.vercel.app/static/media/whitelogo.d1df5dc8e209062eca82.webp",
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
     role: "Co-Head at Samarth, Educational Club of TMSL.",
     company: "Samarth",
     date: "2024 - Ongoing",
@@ -210,7 +229,11 @@ export const experiences = [
   },
   {
     id: 0,
+<<<<<<< HEAD
     img: EducathonImage,
+=======
+   img: EducathonImage,
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
     role: "Organised Educathon, National Level Hackathon at TMSL.",
     company: "Samarth",
     date: "December 2024",
@@ -220,7 +243,11 @@ export const experiences = [
       "Organizing",
       "Coordination",
     ],
+<<<<<<< HEAD
     // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+=======
+   // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
   },
   {
     id: 1,
@@ -234,6 +261,7 @@ export const experiences = [
       "Adovee Illustrator",
     ],
   },
+<<<<<<< HEAD
   /* {
      id: 2,
      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
@@ -277,6 +305,51 @@ export const experiences = [
      ],
      doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
    },*/
+=======
+ /* {
+    id: 2,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+    role: "Open Source Contributor ",
+    company: "GirlScript Summer of Code",
+    date: "May 2023 - Present",
+    desc: "Contributing to different open-source projects and learn from industry experts",
+    doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+  },
+  {
+    id: 3,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
+    role: "Android Developer",
+    company: "DSC KIIT",
+    date: "Nov2021 - Present",
+    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+    skills: [
+      "Leadership",
+      "Mobile Application Development",
+      "Kotlin",
+      "XML",
+      "Figma",
+    ],
+  },
+  {
+    id: 4,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
+    role: "Android Developer Intern",
+    company: "Rudraksha Welffare Foundation",
+    date: "June 2021 - Oct 2021",
+    desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
+    skills: [
+      "Android",
+      "Java",
+      "Kotlin",
+      "XML",
+      "Node Js",
+      "Cloud Firestore",
+      "Firebase",
+      "Figma",
+    ],
+    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+  },*/
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
 ];
 
 export const education = [
@@ -316,7 +389,11 @@ export const projects = [
     date: "2024",
     description:
       "Online College Management System aimed at streamlining various academic and administrative tasks such as student registration, course management, attendance tracking, and result processing, enhancing efficiency and user experience for both students and faculty.",
+<<<<<<< HEAD
     image: OnlineCollege,
+=======
+    image: OnlineCollege,   
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
     tags: [
       "HTML",
       "CSS",
@@ -335,14 +412,24 @@ export const projects = [
     date: "2024",
     description:
       "I designed and developed a restaurant website using HTML and CSS, featuring a dynamic menu display, online reservation system, and sections for customer reviews and engagement, aimed at enhancing user experience and boosting online presence.",
+<<<<<<< HEAD
     image: Resturent,
+=======
+      image: Resturent,   
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
     tags: ["HTML", "CSS"],
     category: "web app",
     github: "https://github.com/Priyanshupriya686/Resturent.git",
     webapp: "https://grillnspices.vercel.app",
+<<<<<<< HEAD
 
   },
   {
+=======
+    
+  },
+  { 
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
     id: 1,
     title: "Website For SAMARTH",
     date: "Oct 2022 - Present",
@@ -361,6 +448,7 @@ export const projects = [
     github: "https://github.com/SamarthTech/Website-25.git",
     webapp: "https://samarth.vercel.app/",
   },
+<<<<<<< HEAD
   /*{
       id: 2,
       title: "Coming Soon",
@@ -402,6 +490,49 @@ export const projects = [
       webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
     },*/
 
+=======
+/*{
+    id: 2,
+    title: "Coming Soon",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+    image:
+      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+    category: "machine learning",
+    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
+    webapp: "https://brain-tumor.netlify.app/",
+    member: [
+      {
+        name: "Rishav Chanda",
+        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        github: "https://github.com/rishavchanda/",
+      },
+      {
+        name: "Upasana Chaudhuri",
+        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+        github: "https://github.com/upasana0710",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Buckoid",
+    date: "Dec 2021 - Apr 2022",
+    description:
+      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+    image:
+      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+    category: "android app",
+    github: "https://github.com/rishavchanda/Buckoid-Android-App",
+    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+  },*/
+  
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
 ];
 
 export const TimeLineData = [
@@ -411,6 +542,7 @@ export const TimeLineData = [
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
 ];
+<<<<<<< HEAD
 
 export const testimonials = [
   {
@@ -431,3 +563,5 @@ image:AmritSagar,
       feedback: ". . .",
         image: "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg"
 },]
+=======
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2

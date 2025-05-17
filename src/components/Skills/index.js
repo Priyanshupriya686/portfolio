@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { skills } from '../../data/constants';
@@ -36,10 +37,49 @@ export const Title = styled.div`
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 32px;
+=======
+import React from 'react'
+import styled from 'styled-components'
+import { skills } from '../../data/constants'
+
+const Container = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+z-index: 1;
+align-items: center;
+`
+
+const Wrapper = styled.div`
+position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+width: 100%;
+max-width: 1100px;
+gap: 12px;
+@media (max-width: 960px) {
+    flex-direction: column;
+}
+`
+
+export const Title = styled.div`
+font-size: 42px;
+text-align: center;
+font-weight: 600;
+margin-top: 20px;
+  color: ${({ theme }) => theme.text_primary};
+  @media (max-width: 768px) {
+margin-top: 12px;
+      font-size: 32px;
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
   }
 `;
 
 export const Desc = styled.div`
+<<<<<<< HEAD
   font-size: 18px;
   text-align: center;
   max-width: 600px;
@@ -47,6 +87,15 @@ export const Desc = styled.div`
   @media (max-width: 768px) {
     font-size: 16px;
   }
+=======
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+    color: ${({ theme }) => theme.text_secondary};
+    @media (max-width: 768px) {
+        font-size: 16px;
+    }
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
 `;
 
 const SkillsContainer = styled.div`
@@ -56,7 +105,11 @@ const SkillsContainer = styled.div`
   margin-top: 30px;
   gap: 30px;
   justify-content: center;
+<<<<<<< HEAD
 `;
+=======
+`
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
 
 const Skill = styled.div`
   width: 100%;
@@ -74,7 +127,13 @@ const Skill = styled.div`
     max-width: 330px;
     padding: 10px 36px;
   }
+<<<<<<< HEAD
 `;
+=======
+
+
+`
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
 
 const SkillTitle = styled.h2`
   font-size: 28px;
@@ -82,6 +141,7 @@ const SkillTitle = styled.h2`
   color: ${({ theme }) => theme.text_secondary};
   margin-bottom: 20px;
   text-align: center;
+<<<<<<< HEAD
 `;
 
 const SkillList = styled.div`
@@ -91,6 +151,17 @@ const SkillList = styled.div`
   gap: 12px;
   margin-bottom: 20px;
 `;
+=======
+`
+
+const SkillList = styled.div`
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+`
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
 
 const SkillItem = styled.div`
   font-size: 16px;
@@ -111,11 +182,16 @@ const SkillItem = styled.div`
     font-size: 14px;
     padding: 6px 12px;
   }
+<<<<<<< HEAD
 `;
+=======
+`
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
 
 const SkillImage = styled.img`
   width: 24px;
   height: 24px;
+<<<<<<< HEAD
 `;
 
 // Services Section Wrapper to control spacing
@@ -238,10 +314,17 @@ const Skills = () => {
     };
   }, [selectedService]);
 
+=======
+`
+
+
+const Skills = () => {
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
   return (
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
+<<<<<<< HEAD
         <Desc>Here are some of my skills.</Desc>
         <SkillsContainer>
           {skills.map((skill) => (
@@ -251,12 +334,25 @@ const Skills = () => {
                 {skill.skills.map((item) => (
                   <SkillItem key={item.name}>
                     <SkillImage src={item.image} />
+=======
+        <Desc>Here are some of my skills.
+        </Desc>
+        <SkillsContainer>
+          {skills.map((skill) => (
+            <Skill>
+              <SkillTitle>{skill.title}</SkillTitle>
+              <SkillList>
+                {skill.skills.map((item) => (
+                  <SkillItem>
+                    <SkillImage src={item.image}/>
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
                     {item.name}
                   </SkillItem>
                 ))}
               </SkillList>
             </Skill>
           ))}
+<<<<<<< HEAD
         </SkillsContainer>
 
         {/* Services Section */}
@@ -291,3 +387,13 @@ const Skills = () => {
 };
 
 export default Skills;
+=======
+
+        </SkillsContainer>
+      </Wrapper>
+    </Container>
+  )
+}
+
+export default Skills
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2

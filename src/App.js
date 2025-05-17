@@ -12,12 +12,17 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+<<<<<<< HEAD
 import Testimonial from "./components/Testimonial";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+=======
+import ProjectDetails from "./components/ProjectDetails";
+import styled from "styled-components";
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -45,7 +50,10 @@ function App() {
             <Experience />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
+<<<<<<< HEAD
           <Testimonial />
+=======
+>>>>>>> 6cc6c52828f0e58a948f4b9146ceb5930ef81bb2
           <Wrapper>
             <Education />
             <Contact />

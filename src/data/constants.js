@@ -354,7 +354,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: 0,
     title: "Online College Management System",
     date: "2024",
     description:
@@ -374,7 +374,7 @@ export const projects = [
     webapp: "https://ocms-tmsl.vercel.app/",
   },
   {
-    id: 0,
+    id: 1,
     title: "Resturent Website",
     date: "2024",
     description:
@@ -387,7 +387,7 @@ export const projects = [
     webapp: "https://grillnspices.vercel.app",
   },
   { 
-    id: 1,
+    id: 2,
     title: "Website For SAMARTH",
     date: "Oct 2022 - Present",
     description:

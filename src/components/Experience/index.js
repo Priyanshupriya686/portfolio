@@ -9,7 +9,7 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import ExperienceCard from '../Cards/ExperienceCard';
 import { experiences } from '../../data/constants';
-import HeroImg from '../../images/HeroImage.jpg'
+import HeroImg from '../../images/HeroImage.png'
 
 const Container = styled.div`
     display: flex;

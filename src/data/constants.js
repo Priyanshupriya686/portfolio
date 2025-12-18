@@ -1,9 +1,13 @@
-import { Email } from '@mui/icons-material';
-import EducathonImage from '../images/Educathon.png';
-import OnlineCollege from '../images/Online college.png';
-import Resturent from '../images/Resturent.png';
-import Samarth from '../images/Samarth.png';
-import AmritSagar from '../images/AmritSagar.jpg';
+import { Email } from "@mui/icons-material";
+import EducathonImage from "../images/Educathon.png";
+import OnlineCollege from "../images/Online college.png";
+import Resturent from "../images/Resturent.png";
+import Samarth from "../images/Samarth.png";
+import AmritSagar from "../images/AmritSagar.jpg";
+import TecnotkarshImage from "../images/tecnotkarsh.jpeg";
+import IicTmslImage from "../images/iictmsl.png"
+import ExpenseTrackerImage from "../images/ExpenseTracker.png"
+import WellnessDetectionimage from "../images/WellnessDetection.png"
 
 export const Bio = {
   name: "Priyanshu Priya",
@@ -15,10 +19,10 @@ export const Bio = {
   ],
   description:
     "Enthusiastic and diligent Computer Science and Engineering student with a passion for technology and problem-solving. Highly collaborative and eager to learn, seeking opportunities to apply academic knowledge in real-world settings and contribute to innovative projects.",
-  github: "https://github.com/Priyanshupriya686/Priyanshupriya686",
+  github: "https://github.com/Priyanshupriya686",
   resume:
     "https://drive.google.com/file/d/1tQPt3p8RzRW8yJ3A1y1upaqlsIPFbUYM/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/priyanshu-priya-835348256/",
+  linkedin: "https://www.linkedin.com/in/priyanshupriya686",
   twitter: "https://twitter.com/Im_priyanshu__",
   insta: "https://www.instagram.com/priyanshupriya686",
   facebook: "https://www.facebook.com/priyanshu.raj.37819",
@@ -131,8 +135,7 @@ export const skills = [
     skills: [
       {
         name: "C Programming",
-        image:
-          "https://img.icons8.com/?size=512&id=40670&format=png",
+        image: "https://img.icons8.com/?size=512&id=40670&format=png",
       },
       {
         name: "Python",
@@ -146,8 +149,7 @@ export const skills = [
       },
       {
         name: "Pl/Sql",
-        image:
-          "https://my.trocaire.edu/wp-content/uploads/2016/12/pl-sql.png",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVuOd4xl3USZfuW6CuR_QcponvkzVb10k-g&s",
       },
       {
         name: "Git",
@@ -192,47 +194,32 @@ export const experiences = [
   {
     id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy6jxpGiQqxtmghybgCFThC8UyFK-Ve03v1Q&s",
-    img: "https://samarthtmsl.vercel.app/static/media/whitelogo.d1df5dc8e209062eca82.webp",
-    role: "Co-Head at Samarth, Educational Club of TMSL.",
+    role: "Co-Convenor at Samarth, Educational Club of TMSL.",
     company: "Samarth",
     date: "2024 - Ongoing",
-    desc: "As Co-Head of Samarth, TMSL, I manage the Technical Wing, Graphics, and other key areas, ensuring smooth coordination and effective execution across teams.",
-    skills: [
-      "Coordination",
-      "Management",
-      "JavaScript",
-      "Node Js",
-      " Next Js",
-    ],
+    desc: "As the Co-Convenor of Samarth TMSL, I have managed multiple teams and actively organized various events. Through this role, I developed strong leadership and communication skills, gained hands-on experience in teamwork and coordination, and learned many essential organizational and professional skills.",
+    skills: ["Coordination", "Leadership", "Management", "JavaScript", "Node Js", " Next Js"],
     //doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
   {
     id: 0,
     img: EducathonImage,
-   img: EducathonImage,
     role: "Organised Educathon, National Level Hackathon at TMSL.",
     company: "Samarth",
     date: "December 2024",
     desc: "I organized a national-level hackathon, managing end-to-end execution and bringing together innovators from across the country.",
-    skills: [
-      "Mentorship",
-      "Organizing",
-      "Coordination",
-    ],
-    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-   // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+    skills: ["Mentorship", "Organizing", "Coordination"],
+    //doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+    //doc: "https://drive.google.com/uc?export=view&id=1doRzpr-t7-kwovsIFcDf_FcDI8CgW5De",
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/v2/D560BAQGwFkdHInCcKg/company-logo_200_200/company-logo_200_200/0/1735143962619/tecnotkarsh_logo?e=1752710400&v=beta&t=jQ0i3YmG0kqMuT06esb3NuA6CuDPBUFbkvFdqKzB7qs",
+    img: TecnotkarshImage,
     role: "Graphics Designer",
     company: "technOTKARSH",
     date: "2022 - 2024",
     desc: "I worked as a graphic designer for TechnOTKARSH, the sports club of TMSL, creating visual content for events and promotions.",
-    skills: [
-      "Canva",
-      "Adovee Illustrator",
-    ],
+    skills: ["Canva", "Adovee Illustrator"],
   },
   /* {
      id: 2,
@@ -277,7 +264,7 @@ export const experiences = [
      ],
      doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
    },*/
- /* {
+  /* {
     id: 2,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
     role: "Open Source Contributor ",
@@ -360,17 +347,11 @@ export const projects = [
     description:
       "Online College Management System aimed at streamlining various academic and administrative tasks such as student registration, course management, attendance tracking, and result processing, enhancing efficiency and user experience for both students and faculty.",
     image: OnlineCollege,
-    image: OnlineCollege,   
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-    ],
+    image: OnlineCollege,
+    tags: ["HTML", "CSS", "JavaScript", "React Js", "MongoDb", "Node Js"],
     category: "web app",
-    github: "https://github.com/Priyanshupriya686/Online-college-management-system.git",
+    github:
+      "https://github.com/Priyanshupriya686/Online-college-management-system.git",
     webapp: "https://ocms-tmsl.vercel.app/",
   },
   {
@@ -380,13 +361,13 @@ export const projects = [
     description:
       "I designed and developed a restaurant website using HTML and CSS, featuring a dynamic menu display, online reservation system, and sections for customer reviews and engagement, aimed at enhancing user experience and boosting online presence.",
     image: Resturent,
-      image: Resturent,   
+    image: Resturent,
     tags: ["HTML", "CSS"],
     category: "web app",
     github: "https://github.com/Priyanshupriya686/Resturent.git",
     webapp: "https://grillnspices.vercel.app",
   },
-  { 
+  {
     id: 2,
     title: "Website For SAMARTH",
     date: "Oct 2022 - Present",
@@ -403,28 +384,55 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/SamarthTech/Website-25.git",
-    webapp: "https://samarth.vercel.app/",
+    webapp: "https://samarthtmsl.in/",
   },
-  /*{
-      id: 2,
-      title: "Coming Soon",
-      date: "Jan 2023 - Mar 2023",
+  {
+    id: 2,
+    title: "Website Of IIC TMSL",
+    date: "2023",
+    description:
+      "I built a dynamic and responsive website for IIC-TMSL as part of a college competition using React.js. This project showcases my proficiency with modern front-end development, component-based UI design, and single-page application architecture.",
+    image: IicTmslImage,
+    tags: [
+      "React Js",
+      "Html",
+      "CSS",
+      "JavaScript",
+    ],
+    category: "web app",
+    github: "https://github.com/Priyanshupriya686/IIC-TMSl.git",
+    webapp: "https://iictmsl.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Daily Expense Tracker",
+    date: "2023",
+    description:
+      "I developed an Expense Tracker web application using React.js, designed to help users track their income and expenses in a simple, intuitive interface.",
+    image: ExpenseTrackerImage,
+    tags: [
+      "Html",
+      "CSS",
+      "JavaScript",
+    ],
+    category: "web app",
+    github: "https://github.com/Priyanshupriya686/Expense-Tracker.git",
+    webapp: "https://dailyexpensess.vercel.app/",
+  }, 
+  
+  {
+      id: 4,
+      title: "Menal Wellness Detection Based on Expression Used on social Media",
+      date: "June 2025",
       description:
-        "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-      image:
-        "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+        "Developed a Mental Wellness Detection platform using Python, machine learning, and NLP to analyze expressions on social media and assess users’ mental well-being. This project applies real-world data processing and predictive modeling to transform social media text insights into meaningful wellness scores and personalized insights",
+      image: WellnessDetectionimage ,
       tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
       category: "machine learning",
-      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-      webapp: "https://brain-tumor.netlify.app/",
-      member: [
-        {
-          name: "Rishav Chanda",
-          img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
+      github: "https://github.com/Priyanshupriya686/Mental-Wellness-Detection.git",
+      webapp: "Soon",
         },
-        {
+       /* {
           name: "Upasana Chaudhuri",
           img: "https://avatars.githubusercontent.com/u/100614635?v=4",
           linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
@@ -446,7 +454,7 @@ export const projects = [
       webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
     },*/
 
-/*{
+  /*{
     id: 2,
     title: "Coming Soon",
     date: "Jan 2023 - Mar 2023",
@@ -486,7 +494,6 @@ export const projects = [
     github: "https://github.com/rishavchanda/Buckoid-Android-App",
     webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },*/
-  
 ];
 
 export const TimeLineData = [
@@ -501,18 +508,23 @@ export const testimonials = [
   {
     name: "Amrit Sagar",
     role: "Co-Convenor at Samarth(TMSL)",
-    feedback: "Working with Priyanshu during my tenure as the Co-Convenor of Samarth was genuinely a great experience. From day one, he brought a level of energy and creativity that stood out. Whether it was designing graphics, managing tasks, or developing the front end of our platform, his work was consistently impressive. The designs were always sharp and on point, capturing exactly what we had in mind- even when the ideas were a bit vague.On the management side, he handled everything smoothly, always stepping up when things got hectic.And when it came to front - end development, the attention to detail and clean execution really made a difference in how things looked and functioned. What I appreciated most was how dependable and passionate he was throughout.It’s rare to find someone so versatile and committed.I’m really proud of the work we did together and I’m sure he will do even greater things ahead.",
-image:AmritSagar,
+    feedback:
+      "Working with Priyanshu during my tenure as the Co-Convenor of Samarth was genuinely a great experience. From day one, he brought a level of energy and creativity that stood out. Whether it was designing graphics, managing tasks, or developing the front end of our platform, his work was consistently impressive. The designs were always sharp and on point, capturing exactly what we had in mind- even when the ideas were a bit vague.On the management side, he handled everything smoothly, always stepping up when things got hectic.And when it came to front - end development, the attention to detail and clean execution really made a difference in how things looked and functioned. What I appreciated most was how dependable and passionate he was throughout.It’s rare to find someone so versatile and committed.I’m really proud of the work we did together and I’m sure he will do even greater things ahead.",
+    image: AmritSagar,
   },
-{
-  name: "Arghya Bandopadhyay",
+  {
+    name: "Arghya Bandopadhyay",
     role: "SDE, ThoughtWorks",
-      feedback: "Priyanshu is an astoundingly capable and intellectually agile individual, known for his adeptness at unraveling complex problems with composure and creativity. As my junior in college, he played an instrumental role in the Education Group — Samarth, where he consistently exhibited a rare blend of technical proficiency and strategic foresight. His indefatigable work ethic, coupled with a proactive approach to embracing responsibilities, sets him apart. What truly distinguishes Priyanshu is his flair for innovation — his visionary ideas are not only impactful but often paradigm-shifting, leaving an indelible mark on every initiative he undertakes.",
-        image: "https://sayakdev.tech/static/media/arghyada.0ea7b5b0c9661483efea.jpg"
-},
-{
-  name: "Name",
+    feedback:
+      "Priyanshu is an astoundingly capable and intellectually agile individual, known for his adeptness at unraveling complex problems with composure and creativity. As my junior in college, he played an instrumental role in the Education Group — Samarth, where he consistently exhibited a rare blend of technical proficiency and strategic foresight. His indefatigable work ethic, coupled with a proactive approach to embracing responsibilities, sets him apart. What truly distinguishes Priyanshu is his flair for innovation — his visionary ideas are not only impactful but often paradigm-shifting, leaving an indelible mark on every initiative he undertakes.",
+    image:
+      "https://sayakdev.tech/static/media/arghyada.0ea7b5b0c9661483efea.jpg",
+  },
+  {
+    name: "Name",
     role: "Role",
-      feedback: ". . .",
-        image: "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg"
-},]
+    feedback: ". . .",
+    image:
+      "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg",
+  },
+];

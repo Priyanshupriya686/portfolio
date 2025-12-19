@@ -507,7 +507,7 @@ export const TimeLineData = [
 export const testimonials = [
   {
     name: "Amrit Sagar",
-    role: "Co-Convenor at Samarth(TMSL)",
+    role: "Co-Convenor at Samarth TMSL",
     feedback:
       "Working with Priyanshu during my tenure as the Co-Convenor of Samarth was genuinely a great experience. From day one, he brought a level of energy and creativity that stood out. Whether it was designing graphics, managing tasks, or developing the front end of our platform, his work was consistently impressive. The designs were always sharp and on point, capturing exactly what we had in mind- even when the ideas were a bit vague.On the management side, he handled everything smoothly, always stepping up when things got hectic.And when it came to front - end development, the attention to detail and clean execution really made a difference in how things looked and functioned. What I appreciated most was how dependable and passionate he was throughout.It’s rare to find someone so versatile and committed.I’m really proud of the work we did together and I’m sure he will do even greater things ahead.",
     image: AmritSagar,
@@ -520,11 +520,11 @@ export const testimonials = [
     image:
       "https://sayakdev.tech/static/media/arghyada.0ea7b5b0c9661483efea.jpg",
   },
-  {
-    name: "Name",
-    role: "Role",
-    feedback: ". . .",
-    image:
-      "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg",
-  },
+  // {
+  //   name: "Name",
+  //   role: "Role",
+  //   feedback: ". . .",
+  //   image:
+  //     "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg",
+  // },
 ];

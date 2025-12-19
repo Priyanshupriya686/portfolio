@@ -13,7 +13,7 @@ export const Nav = styled.div`
     top: 0;
     z-index: 10;
     @media (max-width: 960px) {
-        trastion: 0.8s all ease;
+        transition: 0.8s all ease;
     }
 `;
 export const NavbarContainer = styled.div`
@@ -111,37 +111,69 @@ export const ButtonContainer = styled.div`
 
 export const MobileIcon = styled.div`
   display: none;
-  @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: ${({ theme }) => theme.text_primary};
-  }
-`
 
-export const MobileMenu = styled.div`
+  @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 16px;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
     position: absolute;
-    top: 80px;
-    right: 0;
-    width: 100%;
-    padding: 12px 40px 24px 40px;
-    background: ${({ theme }) => theme.card_light+99};
-    transition: all 0.6s ease-in-out;
-    transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
-    border-radius: 0 0 20px 20px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-    z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
+    top: 28px;
+    right: 24px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+`;
 
-`
+export const Bar = styled.span`
+  height: 3px;
+  width: 100%;
+  background: ${({ theme }) => theme.text_primary};
+  border-radius: 10px;
+  transition: all 0.4s ease;
+
+  &:nth-child(1) {
+    transform: ${({ isOpen }) =>
+      isOpen ? 'rotate(45deg) translate(5px, 5px)' : 'rotate(0)'};
+  }
+
+  &:nth-child(2) {
+    opacity: ${({ isOpen }) => (isOpen ? '0' : '1')};
+  }
+
+  &:nth-child(3) {
+    transform: ${({ isOpen }) =>
+      isOpen ? 'rotate(-45deg) translate(5px, -5px)' : 'rotate(0)'};
+  }
+`;
+
+
+export const MobileMenu = styled.div`
+  position: absolute;
+  top: 80px;
+  right: 16px;
+  width: 260px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ✅ FIX */
+  gap: 20px;
+
+  background: ${({ theme }) => theme.card_light}66;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+  transition: all 0.4s ease;
+  transform: ${({ isOpen }) =>
+    isOpen ? 'translateX(0)' : 'translateX(120%)'};
+  opacity: ${({ isOpen }) => (isOpen ? '1' : '0')};
+
+  z-index: 1000;
+`;
+
+
 
 export const MobileMenuItems = styled.ul`
   display: flex;
@@ -190,20 +222,20 @@ export const MobileMenuButton = styled.a`
   }
 `;
 
-export  const MobileLink = styled.a`
+export const MobileLink = styled.a`
+  text-align: center;
+  font-size: 18px;
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
   text-decoration: none;
-  :hover {
+  transition: color 0.2s ease;
+
+  &:hover {
     color: ${({ theme }) => theme.primary};
   }
-
-  &.active {
-    border-bottom: 2px solid ${({ theme }) => theme.primary};
-  }
 `;
+
 
 export const MobileNavLogo = styled(LinkR)`
   width: 80%;

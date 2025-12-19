@@ -11,8 +11,9 @@ import {
   MobileIcon,
   MobileMenu,
   MobileLink,
+  Bar,
 } from './NavbarStyledComponent'
-import { FaHandHoldingHeart, FaBars } from 'react-icons/fa'
+import { FaHandHoldingHeart } from 'react-icons/fa'
 import { Bio } from '../../data/constants'
 import { useTheme } from 'styled-components'
 
@@ -37,8 +38,11 @@ const Navbar = () => {
         </NavLogo>
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
-          <FaBars />
-        </MobileIcon>
+  <Bar isOpen={isOpen} />
+  <Bar isOpen={isOpen} />
+  <Bar isOpen={isOpen} />
+</MobileIcon>
+
 
         <NavItems>
           <NavLink href="#about">About</NavLink>

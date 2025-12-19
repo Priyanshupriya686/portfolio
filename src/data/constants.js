@@ -21,7 +21,7 @@ export const Bio = {
     "Enthusiastic and diligent Computer Science and Engineering student with a passion for technology and problem-solving. Highly collaborative and eager to learn, seeking opportunities to apply academic knowledge in real-world settings and contribute to innovative projects.",
   github: "https://github.com/Priyanshupriya686",
   resume:
-    "https://drive.google.com/file/d/1tQPt3p8RzRW8yJ3A1y1upaqlsIPFbUYM/view?usp=sharing",
+    "https://drive.google.com/file/d/1DFGCVURPAWBV7CnGBTwvEYCSdF57skgc/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/priyanshupriya686",
   twitter: "https://twitter.com/Im_priyanshu__",
   insta: "https://www.instagram.com/priyanshupriya686",

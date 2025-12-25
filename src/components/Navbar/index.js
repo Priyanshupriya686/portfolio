@@ -13,7 +13,8 @@ import {
   MobileLink,
   Bar,
 } from './NavbarStyledComponent'
-import { FaHandHoldingHeart } from 'react-icons/fa'
+//import { FaHandHoldingHeart } from 'react-icons/fa'
+import Logo from "../../../src/images/PLogoWhite.png"
 import { Bio } from '../../data/constants'
 import { useTheme } from 'styled-components'
 
@@ -33,7 +34,19 @@ const Navbar = () => {
               cursor: 'pointer',
             }}
           >
-            <FaHandHoldingHeart size="2rem" /> <Span>Priyanshu</Span>
+            <img 
+              src={Logo} 
+              alt="Logo"
+              style={{ width: '30px', height: '30px', marginRight: '-10px' }} 
+            />
+          {/* <Span style={{
+            marginTop:'12px'
+          }}>riyanshu</Span> */}
+          {/* <Span>riyanshu</Span> */}
+          <Span style={{
+            marginTop:'12px'
+          }}>riyanshu</Span> 
+
           </a>
         </NavLogo>
 
